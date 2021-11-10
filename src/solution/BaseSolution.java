@@ -1,6 +1,6 @@
 package solution;
 
-public class Solution {
+public class BaseSolution {
 	
 	/**
 	 * Approach 1
@@ -35,7 +35,7 @@ public class Solution {
 		int currWindowSum=0;
 		int i=0;
 		
-		for(i= 0 ; i < k ; i++)
+		for(; i < k ; i++)
 			currWindowSum+=arr[i];
 
 		for(int j= i ; j < arrSize ; j++) {
